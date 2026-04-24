@@ -7,20 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        mavi: {
-          blue: '#1e3a8a', // Deep blue from logo
-          gold: '#d4af37', // Gold from scales
-          gray: '#f3f4f6',
+        sinergia: {
+          black: '#0A0A0A',
+          gold: '#D4AF37',
+          goldlight: '#F3E5AB',
+          gray: '#1A1A1A'
         }
       },
       fontFamily: {
-        accentBold: ['AccentGraphicBold', 'sans-serif'],
-        accentLight: ['AccentGraphicLight', 'sans-serif'],
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
       },
-      backgroundImage: {
-        'scales': "url('/images/Gemini_Generated_Image_c1t477c1t477c1t4.png')",
-        'woman': "url('/images/Gemini_Generated_Image_wcuddgwcuddgwcud.png')",
+      spacing: {
+        '18': '4.5rem',
       }
     },
   },
